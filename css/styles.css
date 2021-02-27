@@ -2,8 +2,50 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+body{
+  background: linear-gradient(116.82deg, #0038FF 0%, rgba(250, 0, 255, 0.78) 100%);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+html{
+  height: 100%;
+}
 #images {
-  width: 50%;
+  width: 800px;
+  height: 500px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+.btn{
+  border: none;
+  height: 50px;
+  width: 100px;
+  background: gray;
+  color: white;
+  font-size: large;
+  cursor: pointer;
+}
+.btn:hover{
+  background: white;
+  color: black;
+}
+#btn-1{
+  position: absolute;
+  left: 25%;
+  margin-top: 15px;
+}
+#btn-2{
+  position:absolute;
+  left: 68.75%;
+  margin-top: 15px;
+}
+.title{
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 25px;
+  font-size: x-large;
 }
